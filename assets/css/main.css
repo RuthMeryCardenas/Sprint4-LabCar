@@ -1,0 +1,14 @@
+body {
+  font-family: sans-serif;
+  font-size: 14px;
+}
+section {
+  height: 600px;
+}
+/*CLASES REUTILIZABLES*/
+.bg-primary {
+  background-color: #fcb425;
+}
+section#tarifa {
+
+}
