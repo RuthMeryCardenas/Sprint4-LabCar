@@ -19,12 +19,12 @@ section .btn {
   padding-bottom: 50px;
   padding-top: 50px;
 }
-.font-raleway {
-  font-family: 'Raleway', sans-serif;
-}
 .container .row > div{
   padding-left: 50px;
   padding-right: 50px;
+}
+.font-raleway {
+  font-family: 'Raleway', sans-serif;
 }
 .text-black {
   color : #000000;
@@ -65,4 +65,14 @@ section .btn {
 #hero .separador span
 {
   width: 30%;
+}
+/*SECCIÓN TARIFA*/
+#tarifa .container-map{
+  border: 1.5px solid #FFFFFF;
+  height: 400px;
+  padding: 10px;
+  width: 400px;
+}
+#map {
+  height: 100%;
 }

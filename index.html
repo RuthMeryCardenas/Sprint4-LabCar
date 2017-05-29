@@ -32,10 +32,34 @@
   </section>
   <!-- <section id="informacion"></section> -->
   <!-- <section id="conduce"></section> -->
-  <!-- <section id="tarifa"></section> -->
+  <section id="tarifa" class="bg-goldenrod">
+    <div class="container">
+      <div class="row">
+        <div class=" col-xs-12 col-sm-6 col-md-6">
+          <h2>Tarifas</h2>
+          <p>Consulta las tarifas LabCar aquí</p>
+          <div>
+            <span class="glyphicon glyphicon-record"></span>
+            <input type="text" placeholder="Ingrese punto de partida">
+          </div>
+          <div>
+            <span class="glyphicon glyphicon-send"></span>
+            <input type="text" placeholder="Ingrese un destino">
+          </div>
+          <button type="button" class="text-uppercase text-black">¡trazar ruta!</button>
+        </div>
+        <div class="hidden-xs col-sm-6 col-md-6">
+          <div class="container-map center-block">
+            <div id="map"class=""></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
   <!-- <footer></footer> -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
   <script type="text/javascript" src="assets/js/app.js"></script>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDZgh9sZUbFx0QAgEyGO_7qzr3DgyAomqs&callback=initMap"></script>
 </body>
 </html>
