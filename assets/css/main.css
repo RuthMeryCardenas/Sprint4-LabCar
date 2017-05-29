@@ -1,14 +1,37 @@
 body {
+  color: #FFFFFF;
   font-family: sans-serif;
   font-size: 14px;
 }
 section {
-  height: 600px;
+  height: 500px;
 }
 /*CLASES REUTILIZABLES*/
-.bg-primary {
-  background-color: #fcb425;
+.bg-goldenrod {
+  background-color: #fbb617;
 }
-section#tarifa {
-
+.container {
+  height: 100%;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+.row > div{
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.text-black {
+  color : #000000;
+}
+.text-uppercase {
+  text-transform: uppercase;
+}
+/*SECCIÓN TARIFA*/
+#tarifa .container-map{
+  border: 1.5px solid #FFFFFF;
+  height: 400px;
+  padding: 10px;
+  width: 400px;
+}
+#map {
+  height: 100%;
 }
