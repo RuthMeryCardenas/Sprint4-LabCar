@@ -1,14 +1,53 @@
 body {
-  font-family: sans-serif;
+  color: #FFFFFF;
+  font-family: 'Open Sans', sans-serif;
   font-size: 14px;
 }
 section {
-  height: 600px;
+  padding-bottom: 50px;
+  padding-top: 50px;
 }
 /*CLASES REUTILIZABLES*/
-.bg-primary {
-  background-color: #fcb425;
+.bg-goldenrod {
+  background-color: #fbb617;
 }
-section#tarifa {
-
+.font-raleway {
+  font-family: 'Raleway', sans-serif;
+}
+/*SECCIÓN INFORMACIÓN*/
+#informacion .content {
+  border: 1.5px solid #FFFFFF;
+  overflow: auto;
+  padding-bottom: 50px;
+}
+#informacion .col-left {
+  height: 300px;
+  background-image: url(../img/celular.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 25px;
+}
+#informacion .col-right{
+  /*background-color: red;*/
+}
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 0px) {
+  #informacion .col-left {
+    width: 100%;
+  }
+}
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  #informacion .col-left,
+  #informacion .col-right {
+    width: 50%;
+  }
+}
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  #informacion .col-left,
+  #informacion .col-right {
+    width: 50%;
+  }
 }
