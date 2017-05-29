@@ -4,7 +4,8 @@ body {
   font-size: 14px;
 }
 section {
-  height: 500px;
+  padding-bottom: 50px;
+  padding-top: 50px;
 }
 section .btn {
   border: 0;
@@ -14,23 +15,11 @@ section .btn {
 .bg-goldenrod {
   background-color: #fbb617;
 }
-.container {
-  height: 100%;
-  padding-bottom: 50px;
-  padding-top: 50px;
-}
-.container .row > div{
-  padding-left: 50px;
-  padding-right: 50px;
-}
 .font-raleway {
   font-family: 'Raleway', sans-serif;
 }
 .text-black {
   color : #000000;
-}
-.text-uppercase {
-  text-transform: uppercase;
 }
 /*SECCIÓN HERO*/
 #hero {
@@ -67,6 +56,10 @@ section .btn {
   width: 30%;
 }
 /*SECCIÓN TARIFA*/
+#tarifa .container .row > div{
+padding-left: 50px;
+padding-right: 50px;
+}
 #tarifa .container-map{
   border: 1.5px solid #FFFFFF;
   height: 400px;
@@ -75,4 +68,41 @@ section .btn {
 }
 #map {
   height: 100%;
+}
+/*SECCIÓN INFORMACIÓN*/
+#informacion .content {
+  border: 1.5px solid #FFFFFF;
+  overflow: auto;
+  padding-bottom: 50px;
+}
+#informacion .col-left {
+  height: 300px;
+  background-image: url(../img/celular.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 25px;
+}
+#informacion .col-right{
+
+}
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 0px) {
+  #informacion .col-left {
+    width: 100%;
+  }
+}
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  #informacion .col-left,
+  #informacion .col-right {
+    width: 50%;
+  }
+}
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  #informacion .col-left,
+  #informacion .col-right {
+    width: 50%;
+  }
 }
