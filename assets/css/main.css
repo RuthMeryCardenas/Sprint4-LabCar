@@ -1,14 +1,68 @@
 body {
-  font-family: sans-serif;
+  color: #FFFFFF;
+  font-family: 'Open Sans', sans-serif;
   font-size: 14px;
 }
 section {
-  height: 600px;
+  height: 500px;
+}
+section .btn {
+  border: 0;
+  font-weight: bold;
 }
 /*CLASES REUTILIZABLES*/
-.bg-primary {
-  background-color: #fcb425;
+.bg-goldenrod {
+  background-color: #fbb617;
 }
-section#tarifa {
-
+.container {
+  height: 100%;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+.font-raleway {
+  font-family: 'Raleway', sans-serif;
+}
+.container .row > div{
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.text-black {
+  color : #000000;
+}
+.text-uppercase {
+  text-transform: uppercase;
+}
+/*SECCIÓN HERO*/
+#hero {
+  height: 650px;
+  background-image: url(../img/taxi.jpg);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center -1171px;
+  overflow: hidden;
+}
+#hero .row {
+  top: 150px;
+  position: relative;
+}
+#hero .registro {
+  padding: 30px 50px 50px 50px;
+}
+#hero .logo-white {
+  display: inline-block;
+  width: 90px;
+  height: 26px;
+  background-image: url(../img/logo-blanco.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+#hero .separador {
+  display: flex;
+  justify-content: center;
+}
+#hero .separador hr,
+#hero .separador span
+{
+  width: 30%;
 }
