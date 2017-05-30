@@ -80,8 +80,22 @@ padding-right: 50px;
   background-position: center;
   margin-top: 25px;
 }
-#informacion .col-right{
-
+/*SECCIÓN CONDUCE*/
+#conduce {
+  background-image: url(../img/conduce.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% auto;
+  height: 400px;
+}
+#conduce .row{
+  height: 100%;
+}
+#conduce .row .content {
+  background-color: #000000;
+  height: inherit;
+  opacity: 0.5;
 }
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 0px) {
