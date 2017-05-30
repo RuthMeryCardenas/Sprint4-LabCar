@@ -26,13 +26,13 @@ section .btn {
 }
 /*SECCIÓN HERO*/
 #hero {
-  height: 650px;
   background-image: url(../img/taxi.jpg);
   background-repeat: no-repeat;
   overflow: hidden;
 }
 #hero .row {
   position: relative;
+  top: 25%;
 }
 #hero .logo-white {
   display: inline-block;
@@ -105,9 +105,7 @@ padding-right: 50px;
   #hero {
     background-size: 110% 100%;
     background-position: center;
-  }
-  #hero .row {
-    top: 215px;
+    height: 500px;
   }
   #hero .registro {
     padding: 15px 25px 25px 25px;
@@ -127,10 +125,8 @@ padding-right: 50px;
   }
   #hero {
     background-size: 100% auto;
-    background-position: center -1171px;
-  }
-  #hero .row {
-    top: 150px;
+    background-position: center -1145px;
+    height: 650px;
   }
   #hero .registro {
     padding: 30px 50px 50px 50px;
