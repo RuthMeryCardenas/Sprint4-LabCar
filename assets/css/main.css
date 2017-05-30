@@ -93,9 +93,8 @@ padding-right: 50px;
   height: 100%;
 }
 #conduce .row .content {
-  background-color: #000000;
+  background-color: rgba(0, 0, 0, 0.5);
   height: inherit;
-  opacity: 0.5;
 }
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 0px) {
@@ -114,6 +113,14 @@ padding-right: 50px;
   }
   #informacion .col-left {
     width: 100%;
+  }
+  #conduce {
+    background-image: url(../img/conduce.jpg);
+    background-size: cover;
+    background-position: center;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    height: 400px;
   }
 }
 /* Medium devices (desktops, 992px and up) */
@@ -138,5 +145,13 @@ padding-right: 50px;
   #informacion .col-left,
   #informacion .col-right {
     width: 50%;
+  }
+  #conduce {
+    background-image: url(../img/conduce.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% auto;
+    height: 400px;
   }
 }
